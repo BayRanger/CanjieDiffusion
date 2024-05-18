@@ -1,6 +1,11 @@
 # CanjieDiffusion
-Let' create chinese character end2end
+
+模仿各类名人的说话方式及语调
 
 
-# Introduction
-The repo intends to create chinese character of different style in a end2end way. Curently, if you want to add a chinese charater for diffusion, you have to convert it to image then use img2img mode to perform diffusion, which is not a end2end way...
+# Roadmap
+
+1. 基于爬虫，获取娱乐明星的说话语料资料
+2. 通过qLora等方式进行微调，让大模型学习明星的说话习惯
+3. 基于RAG实时更新
+4. 基于vits进行语音输出
